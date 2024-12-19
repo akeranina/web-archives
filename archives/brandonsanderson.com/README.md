@@ -6,9 +6,9 @@
 
 Рассмотрим довольно позитивный **результат**:
 ![](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/archive_ready.png) 
- - **HTML and CSS:** 63 найденных ссылок не работает только 1. Множество ошибок в HTML и CSS файлах.
- - **HTTP:** *"Headers found"*, ошибок нет.
- - **Media:** Все изображения локальные, но долгое время ответа (*"Network response time is 1590 ms"*)
+ - **HTML and CSS:** из 63 найденных ссылок не работает только 1. Множество ошибок в HTML и CSS файлах.
+ - **HTTP:** *"HTTP Headers found"*, ошибок нет.
+ - **Media:** все изображения локальные, но долгое время ответа (*"Network response time is 1590 ms"*)
  - **Sitemaps:** множество *"Disallow"* команд в файле robots.txt, из-за чего страдает Accessibility
  ## 2. Wpull и metawarc
  ### Архивация сайта
@@ -42,7 +42,7 @@
 
 Как можно заметить, больше половины веса архива занимает MIME-тип `text/html`. Изображения в форматах `png` и `jpeg`, хоть и превосходят HTML-файлы числом, но весят значительно меньше. Сайт имеет достаточно разветвленную структуру и множество оформления.
 
-## Replay Webpage
+## 3. Replay Webpage
  Архив `.warc.gz` был открыт для просмотра с помощью инструмента [ReplayWeb.page](https://replayweb.page/).
  
  **Результат:**
