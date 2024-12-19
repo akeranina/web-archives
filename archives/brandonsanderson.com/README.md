@@ -2,7 +2,8 @@
 **Брэндон Сандерсон** – современный американский писатель, специализирующийся на жанре фэнтези, в частности боевом фэнтези. Вот ссылка на его личный сайт: https://www.brandonsanderson.com/
 Архив сайта расположен [здесь](https://disk.yandex.ru/d/k0NkU9RO9CCikA).
 ## 1. Archive Ready
-Сайт был проанализирован на удобство для архивирования и соблюдение стандартов в соответствии в метриками CLEAR с помощью ресурса [Archive Ready](https://archiveready.com/). Рассмотрим довольно позитивный **результат**:
+Сайт был проанализирован на удобство для архивирования и соблюдение стандартов в соответствии в метриками CLEAR с помощью ресурса [Archive Ready](https://archiveready.com/).
+Рассмотрим довольно позитивный **результат**:
 ![](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/archive_ready.png) 
  - **HTML and CSS:** 63 найденных ссылок не работает только 1. Множество ошибок в HTML и CSS файлах.
  - **HTTP:** *"Headers found"*, ошибок нет.
@@ -10,13 +11,15 @@
  - **Sitemaps:** множество *"Disallow"* команд в файле robots.txt, из-за чего страдает Accessibility
  ## 2. Wpull и metawarc
  ### Архивация сайта
- Сайт был архивирован с помощью утилиты `wpull`.  Итоговый вес архива `.warc.gz` составил 648 MB, загрузка заняла 3 часа 28 минут.
+ Сайт был архивирован с помощью утилиты `wpull`.
+ Итоговый вес архива `.warc.gz` составил 680 MB, загрузка заняла 3 часа 28 минут.
  ### Анализ архива
  Метаданные архива `.warc.gz` были извлечены с помощью инструмента `metawarc` . 
 
  Результат работы команды `metawarc metadata --output brandonsanderson.com_meta.jsonl brandonsanderson.com.warc.gz` находится в файле [brandonsanderson.com_meta.jsonl](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/brandonsanderson.com_meta.jsonl "brandonsanderson.com_meta.jsonl").
 
 Рассмотрим поближе содержимое архива, применив команду `metawarc analyze brandonsanderson.com.warc.gz`:
+
 | mimes                  | files   | size       | share         |
 |------------------------|---------|------------|---------------|
 | ---------------------- | ------- | ---------- | ------------- |
@@ -37,9 +40,11 @@
 | #total                 | 32583   | 1465559675 | 100           |
 
 Как можно заметить, больше половины веса архива занимает MIME-тип `text/html`. Изображения в форматах `png` и `jpeg`, хоть и превосходят HTML-файлы числом, но весят значительно меньше. Сайт имеет достаточно разветвленную структуру и множество оформления.
+
 ## Replay Webpage
  Архив `.warc.gz` был открыт для просмотра с помощью инструмента [ReplayWeb.page](https://replayweb.page/).
  **Результат:**
  ![Главная страница](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/replay_webpage_1.png)
 ![Раздел "Блог"](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/replay_webpage_2.png)
+
 Архив сайта загрузился хорошо. Удалось пройтись по разным вкладкам и посмотреть содержимое.
