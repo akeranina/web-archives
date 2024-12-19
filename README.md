@@ -22,4 +22,5 @@
 ## Контакты
 [Керанина Анастасия](https://github.com/akeranina), ЦМГН ВШЭ, 2024
 ## Условия использования
-Данная работа может свободно распространяться по лицензиии [CC0 1.0 Universal![](https://camo.githubusercontent.com/c694114258cf3478eda2c00e0caa1c03fd31b51a6de35ec4c67e6484e25b5042/68747470733a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f69636f6e732f63632e7376673f7265663d63686f6f7365722d7631)![](https://camo.githubusercontent.com/dc70138f22506dfeecc491dba52a3e6c03d305dd7f38929d097bb3589367e652/68747470733a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f69636f6e732f7a65726f2e7376673f7265663d63686f6f7365722d7631)](http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1)
+Данная работа может свободно распространяться по лицензиии [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
