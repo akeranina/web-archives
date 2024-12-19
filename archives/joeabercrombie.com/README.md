@@ -17,28 +17,25 @@
  Результат работы команды `metawarc metadata --output joeabercrombie.com_meta.jsonl joeabercrombie.com.warc.gz` находится в файле [joeabercrombie.com_meta.jsonl](https://github.com/akeranina/web-archives/blob/main/archives/joeabercrombie.com/joeabercrombie.com_meta.jsonl "joeabercrombie.com_meta.jsonl"). Там можно увидеть множество ошибок парсинга.
 
 Рассмотрим поближе содержимое архива, применив команду `metawarc analyze joeabercrombie.com.warc.gz`:
-| mimes                          | files   | size       | share         |
-|--------------------------------|---------|------------|---------------|
-| ------------------------------ | ------- | ---------  | ------------- |
-| image/jpeg                     | 220     | 146947509  | 40.1303       |
-| text/html                      | 2993    | 132735119  | 36.249        |
-| image/png                      | 10      | 35193201   | 9.61102       |
-| application/json               | 9273    | 35088593   | 9.58245       |
-| image/tiff                     | 5       | 5471795    | 1.49431       |
-| text/xml                       | 716     | 2556802    | 0.698245      |
-| application/x-mobipocket-ebook | 9       | 2332021    | 0.636859      |
-| application/epub+zip           | 9       | 2296231    | 0.627085      |
-| application/pdf                | 9       | 1715293    | 0.468435      |
-| video/quicktime                | 1       | 881726     | 0.240793      |
-| text/css                       | 6       | 510795     | 0.139495      |
-| application/javascript         | 12      | 339677     | 0.0927634     |
-| application/rss+xml            | 2       | 76315      | 0.0208411     |
-| image/svg+xml                  | 9       | 28565      | 0.0078009     |
-| text/plain                     | 5       | 1983       | 0.000541543   |
-| #total                         | 13279   | 366175625  | 100           |
-| image/vnd.microsoft.icon       | 1       | 1192       | 6.89196e-05   |
-| text/plain                     | 4       | 1180       | 6.82258e-05   |
-| #total                         | 52919   | 1729552092 | 100           |
+| mimes                          | files   | size      | share         |
+|--------------------------------|---------|-----------|---------------|
+| ------------------------------ | ------- | --------- | ------------- |
+| image/jpeg                     | 220     | 146947509 | 40.1303       |
+| text/html                      | 2993    | 132735119 | 36.249        |
+| image/png                      | 10      | 35193201  | 9.61102       |
+| application/json               | 9273    | 35088593  | 9.58245       |
+| image/tiff                     | 5       | 5471795   | 1.49431       |
+| text/xml                       | 716     | 2556802   | 0.698245      |
+| application/x-mobipocket-ebook | 9       | 2332021   | 0.636859      |
+| application/epub+zip           | 9       | 2296231   | 0.627085      |
+| application/pdf                | 9       | 1715293   | 0.468435      |
+| video/quicktime                | 1       | 881726    | 0.240793      |
+| text/css                       | 6       | 510795    | 0.139495      |
+| application/javascript         | 12      | 339677    | 0.0927634     |
+| application/rss+xml            | 2       | 76315     | 0.0208411     |
+| image/svg+xml                  | 9       | 28565     | 0.0078009     |
+| text/plain                     | 5       | 1983      | 0.000541543   |
+| #total                         | 13279   | 366175625 | 100           |
 
 Наибольший объём занимают 220 изображений в формате `jpeg`. В основном это обложки книг, карты и другие иллюстрации. MIME-тип `text/html` только на втором месте по размеру.
 Также можно заметить несколько файлов таких типов как `application/epub+zip` и `application/x-mobipocket-ebook`. Я не нашла их на самом сайте, но судя по всему, там есть возможность скачать ознакомительные фрагменты книги или, может быть, рассказы в этих форматах.
