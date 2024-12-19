@@ -47,6 +47,9 @@
  
  **Результат:**
  ![Главная страница](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/replay_webpage_1.png)
+ *Главная страница*
+ 
 ![Раздел "Блог"](https://github.com/akeranina/web-archives/blob/main/archives/brandonsanderson.com/replay_webpage_2.png)
+*Раздел "Блог"*
 
 Архив сайта загрузился хорошо. Удалось пройтись по разным вкладкам и посмотреть содержимое.
